@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&family=Montserrat:wght@100&family=Open+Sans:ital,wght@1,400;1,500;1,600&family=Quicksand:wght@400;600&family=Roboto:ital,wght@0,300;1,500&family=Space+Grotesk:wght@300;600&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.bar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+.right {
+  height: 65px;
+  width: 50vw;
+  padding-right: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Dosis", sans-serif;
+}
+
+.bar .gp {
+  color: grey;
+  font-family: "Dosis", sans-serif;
+}
+.doc {
+  color: #1d9a92;
+  font-family: "Dosis", sans-serif;
+}
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 65px;
+  width: 50vw;
+  padding-left: 50px;
+}
+
+.left i {
+  color: #1d9a92;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.icon {
+  width: 100vw;
+  height: 120px;
+  text-align: center;
+  margin-top: 60px;
+}
+.icon i {
+  color: #1d9a92;
+  display: flex;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+.icon h2 {
+  color: #1d9a92;
+  font-family: "Space Grotesk", sans-serif;
+}
+.p1 {
+  color: grey;
+  font-family: "Space Grotesk", sans-serif;
+}
+.p2 {
+  color: grey;
+  font-family: "Space Grotesk", sans-serif;
+}
+.txt {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 300px;
+  padding: 0 50px 0 50px;
+  line-height: 2;
+}
+.blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 450px;
+  width: 100vw;
+}
+
+.patients,
+.clinics,
+.doctors {
+  height: 350px;
+  width: 250px;
+  background-color: #1d9a92;
+  border-radius: 20px;
+  padding: 30px;
+
+  text-indent: pre;
+}
+.clinics {
+  background-color: #0e154f;
+}
+.doctors {
+  background-color: #5e66aa;
+}
+.patients h3,
+.patients h1,
+.doctors h3,
+.doctors h1,
+.clinics h3,
+.clinics h1 {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  color: whitesmoke;
+}
+.patients i,
+.doctors i,
+.clinics i {
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: aliceblue;
+}
+select {
+  background: none;
+  border: none;
+  color: white;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+option {
+  color: #0e154f;
+  padding-top: 50px;
+  border: none;
+}
+.doctors select {
+  margin-top: 75px;
+}
+
+.clinics:hover {
+  bla-bla: bla;
+}
+.btw {
+  width: 100vw;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+}
+.leftt {
+  width: 200px;
+  padding-left: 100px;
+}
+.btw h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #1d9a92;
+}
+.rightt {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  font-size: x-large;
+  padding-left: 300px;
+}
+.btw a {
+  padding: 0px;
+  color: grey;
+}
+.btw a:hover {
+  color: #1d9a92;
+}
+.bigicon {
+  width: 100vw;
+  height: 600px;
+  background-color: #aceceb;
+  display: flex;
+}
+.gauche {
+  width: 50%;
+  height: 100%;
+  line-height: 1.5;
+  overflow: hidden;
+}
+.gauche i {
+  padding-left: 0px;
+}
+.gauche h1 {
+  padding-top: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  width: 400px;
+  padding-left: 120px;
+}
+.gauche p {
+  font-family: "Space Grotesk", sans-serif;
+  padding-top: 20px;
+  width: 400px;
+  padding-left: 100px;
+}
+.gauche i {
+  font-size: 500px;
+  padding-top: 30px;
+  overflow: hidden;
+  opacity: 0.85;
+  margin-left: -50px;
+}
+.droite {
+  width: 50%;
+  margin: 50px;
+  display: flex;
+}
+.cascade {
+  height: 200px;
+  width: 200px;
+  background-color: aliceblue;
+  border-radius: 7px;
+  margin: 0 20px 10px 0;
+  margin-bottom: 20px;
+  padding: 15px;
+  text-align: center;
+  line-height: 1.1;
+}
+.column1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 30px;
+}
+.column2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-right: 20px;
+}
+.droite i {
+  font-size: 30px;
+  margin: 30px;
+}
+
+.column1 p {
+  padding-top: 5px;
+}
+.droite h2,
+.droite p {
+  font-family: "Space Grotesk", sans-serif;
+}
+.last {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 100px;
+  padding-left: 100px;
+  color: #1d9a92;
+  opacity: 0.85;
+}
